@@ -18,7 +18,7 @@ const Sidebar = () => {
         <img className="sub-logo" src={LogoSubtitle} alt="Braggio" />
       </Link>
       <nav>
-        {/* HOME */}
+        {/* HOME PAGE*/}
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
